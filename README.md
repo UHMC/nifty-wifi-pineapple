@@ -64,9 +64,6 @@ Checking the hash file of downloads is important to ensure that the file downloa
 1.	Open Command Prompt.
 2.	Navigate to where the file is downloaded.
 3.	Run the command, “CertUtil -hashfile upgrade-2.6.2.bin SHA256.”
-  ```
-  CertUtil -hashfile upgrade-2.6.2.bin SHA256
-  ```
   * ![CertUtil](index_files/screenshots/sha256.png)
 4.	Compare the hash of the downloaded file against the hash supplied by the developer.
   * ![Donwload checksum](index_files/screenshots/dlsha256.png)
